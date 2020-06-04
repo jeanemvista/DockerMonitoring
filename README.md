@@ -19,6 +19,16 @@ $ sh cadvisor-service.sh
 $ sh cadvisor-container.sh
 ```
 
-# Prometheus
+# Prometheus et Grafana :
 
-# Grafana
+Un fichier docker-compose est disponible dans PrometheusGrafana. Ajouter dans le fichier prometheus.yml les cadvisor installés :
+
+```
+  - job_name: 'cadvisor'
+    scrape_interval: 5s
+    static_configs:
+      - targets: ['<adresse du server cadvisor>:8080']
+```
+
+# Dashboard Grafana
+*  https://grafana.com/grafana/dashboards/11600
