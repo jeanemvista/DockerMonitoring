@@ -4,6 +4,10 @@ Mise en place des outils pour monitorer des conteneurs Docker:
 * Prometheus
 * Grafana
 
+## Schéma
+
+![schema]( "schema")
+
 # Cadvisor
 
 Il faut installer cadvisor sur chacun des serveurs ayant docker. Celui-ci s'intalle dans un container. Pour lancer Cadvisor, 2 propositions en fonction de votre installation docker :
