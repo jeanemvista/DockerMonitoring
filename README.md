@@ -6,7 +6,7 @@ Mise en place des outils pour monitorer des conteneurs Docker:
 
 ## Schéma
 
-![schema]( "schema")
+![schema](MonitoringDocker.png "schema")
 
 # Cadvisor
 
