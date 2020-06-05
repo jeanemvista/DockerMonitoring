@@ -10,7 +10,7 @@ Mise en place des outils pour monitorer des conteneurs Docker:
 
 # Cadvisor
 
-Il faut installer cadvisor sur chacun des serveurs ayant docker. Celui-ci s'intalle dans un container. Pour lancer Cadvisor, 2 propositions en fonction de votre installation docker :
+Cadvisor doit etre installer sur chacun des docker que l'on veut monitorer. Celui-ci s'intalle dans un container. Pour lancer Cadvisor, 2 propositions en fonction de votre installation docker :
 ## En service
 
 ```
