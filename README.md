@@ -1,5 +1,5 @@
 # Docker Monitoring
-Mise en place des outils pour monitorer des Docker:
+Mise en place des outils pour monitorer des conteneurs Docker:
 * cadvisor
 * Prometheus
 * Grafana
@@ -21,7 +21,7 @@ $ sh cadvisor-container.sh
 
 # Prometheus et Grafana :
 
-Un fichier docker-compose est disponible dans PrometheusGrafana. Ajouter dans le fichier prometheus.yml les cadvisor installés :
+Un fichier docker-compose est disponible dans PrometheusGrafana. Ajouter dans le fichier prometheus.yml les serveurs cadvisor installés :
 
 ```
   - job_name: 'cadvisor'
